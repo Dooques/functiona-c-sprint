@@ -1,0 +1,6 @@
+C:\Users\Chris\OneDrive\Documents\northcoders\fundamentals\cs-functional-programming-sprint\FunctionalProgrammingSol\FunctionalProgrammingTest\obj\Debug\net8.0\FunctionalProgrammingTest.csproj.AssemblyReference.cache
+C:\Users\Chris\OneDrive\Documents\northcoders\fundamentals\cs-functional-programming-sprint\FunctionalProgrammingSol\FunctionalProgrammingTest\obj\Debug\net8.0\FunctionalProgrammingTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\OneDrive\Documents\northcoders\fundamentals\cs-functional-programming-sprint\FunctionalProgrammingSol\FunctionalProgrammingTest\obj\Debug\net8.0\FunctionalProgrammingTest.AssemblyInfoInputs.cache
+C:\Users\Chris\OneDrive\Documents\northcoders\fundamentals\cs-functional-programming-sprint\FunctionalProgrammingSol\FunctionalProgrammingTest\obj\Debug\net8.0\FunctionalProgrammingTest.AssemblyInfo.cs
+C:\Users\Chris\OneDrive\Documents\northcoders\fundamentals\cs-functional-programming-sprint\FunctionalProgrammingSol\FunctionalProgrammingTest\obj\Debug\net8.0\FunctionalProgrammingTest.csproj.CoreCompileInputs.cache
+C:\Users\Chris\OneDrive\Documents\northcoders\fundamentals\cs-functional-programming-sprint\FunctionalProgrammingSol\FunctionalProgrammingTest\obj\Debug\net8.0\FunctionalProgrammingTest.sourcelink.json
