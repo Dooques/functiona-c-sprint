@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FunctionalProgramming
 {
-    internal class Exercises002
+    public class Exercises002
     {
         public static Func<List<string>> GetCoolPeople = () => new List<string>
         {
@@ -48,5 +48,16 @@ namespace FunctionalProgramming
             SquaredNums(l);
             PrintNums(l);
         };
+
+        public static Dictionary<string, List<string>> FilterEmails(List<string> emails)
+        {
+            Dictionary<string, List<string>> res = new Dictionary<string, List<string>>();
+
+            res[".co.uk"] = emails.Where(s => s.EndsWith(".co.uk")).ToList();
+            res[".com"] = emails.Where(s => s.EndsWith(".com")).ToList();
+            res["invalid"] = emails.Where(s => !s.EndsWith(".co.uk") && !s.EndsWith(".com")).ToList();
+
+            return res;
+        }
     }
 }
