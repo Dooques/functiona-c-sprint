@@ -43,3 +43,10 @@ List<string> coolPeople = Exercises002.GetCoolPeople();
 coolPeople.ForEach(Console.WriteLine);
 
 Console.WriteLine();
+
+// Task 8
+Console.WriteLine("Task 8");
+
+coolPeople.ForEach(Exercises002.GetUsernames);
+
+Console.WriteLine();
