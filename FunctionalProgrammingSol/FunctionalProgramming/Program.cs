@@ -57,3 +57,11 @@ Console.WriteLine("Task 9");
 Exercises002.PrintCoolPeople(coolPeople);
 
 Console.WriteLine();
+
+// Task 10
+Console.WriteLine("Task 9");
+List<int> numList = new List<int> { 5, 8, 3, 6, 67 };
+
+Exercises002.PrintSquaredNums(numList);
+
+Console.WriteLine();

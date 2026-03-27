@@ -27,6 +27,26 @@ namespace FunctionalProgramming
             }
         };
 
+        public static Action<List<int>> SquaredNums = l =>
+        {
+            for (int i = 0; i < l.Count; i++)
+            {
+                l[i] = Exercises001.SquareIt(l[i]);
+            }
+        };
 
+        public static Action<List<int>> PrintNums = l =>
+        {
+            foreach (int i in l)
+            {
+                Console.WriteLine(i);
+            }
+        };
+
+        public static Action<List<int>> PrintSquaredNums = l =>
+        {
+            SquaredNums(l);
+            PrintNums(l);
+        };
     }
 }
