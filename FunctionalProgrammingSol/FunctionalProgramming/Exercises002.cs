@@ -18,5 +18,15 @@ namespace FunctionalProgramming
         };
 
         public static Action<string> GetUsernames = s => Console.WriteLine(s.Split('@')[0]);
+
+        public static Action<List<string>> PrintCoolPeople = l =>
+        {
+            foreach (string people in l)
+            {
+                Console.WriteLine(people);
+            }
+        };
+
+
     }
 }

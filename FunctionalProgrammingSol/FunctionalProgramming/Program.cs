@@ -50,3 +50,10 @@ Console.WriteLine("Task 8");
 coolPeople.ForEach(Exercises002.GetUsernames);
 
 Console.WriteLine();
+
+// Task 9
+Console.WriteLine("Task 9");
+
+Exercises002.PrintCoolPeople(coolPeople);
+
+Console.WriteLine();

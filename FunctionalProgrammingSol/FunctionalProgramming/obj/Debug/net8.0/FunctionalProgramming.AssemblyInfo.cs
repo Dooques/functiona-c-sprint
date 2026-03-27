@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunctionalProgramming")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f7eabd8249b5c747f0941ab9e415e9f4c54a57d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24b6bef462020c54913327e6f2f919e63a514add")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunctionalProgramming")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunctionalProgramming")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
