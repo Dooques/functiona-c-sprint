@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FunctionalProgrammingTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3e028d939d5c1029e83cd189e2161c2304463f0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+848c3857cdeb3dcb56b08a39d0fb9a7cc65d0f87")]
 [assembly: System.Reflection.AssemblyProductAttribute("FunctionalProgrammingTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FunctionalProgrammingTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
