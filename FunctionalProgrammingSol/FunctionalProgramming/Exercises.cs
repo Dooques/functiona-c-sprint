@@ -12,12 +12,11 @@ namespace FunctionalProgramming
         public static Func<int, int> AddOne = num => num + 1;
         public static Func<int, int> SquareIt = num => num * num;
         public static Func<int, int> AddTen = num => num + 10;
-
-        public static void PrintValues(int value)
+        public static Predicate<string> GrammarCheck = word =>
         {
-            Console.WriteLine(AddTen(value));
-        }
+            string firstChar = word.Substring(0, 1);
+            string firstCharCap = firstChar.Substring(0, 1).ToUpper();
+            return (firstChar.Equals(firstCharCap) && word[word.Length - 1] == '!');
+        };
     }
-
-
 }

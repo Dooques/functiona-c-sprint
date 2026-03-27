@@ -21,5 +21,13 @@ namespace FunctionalTestingSuite
         {
             Assert.That(Exercises001.AddTen(num1).Equals(num2));
         }
+
+        [TestCase("Hello", false)]
+        [TestCase("hello!", false)]
+        [TestCase("Hello!", true)]
+        public void AddOne_CheckForCapitalAndExclamation(string input, bool result)
+        {
+            Assert.That(Exercises001.GrammarCheck(input).Equals(result));
+        }
     }
 }

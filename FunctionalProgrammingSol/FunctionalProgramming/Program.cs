@@ -4,10 +4,18 @@
     {
         public static void Main(string[] args)
         {
+            /*
             List<int> numbers = new List<int> { 4, 15, 55, 78, 12 };
 
             numbers.ForEach(Exercises001.PrintValues);
+            */
 
+            List<string> words = new List<string> { "Amazing!", "apple!", "Awesome!", "Artichoke" };
+
+            words.ForEach(word =>
+            {
+                Console.WriteLine(Exercises001.GrammarCheck(word));
+            });
         }
     }
 }
