@@ -20,3 +20,8 @@ foreach (string word in words)
     Console.WriteLine(Exercises001.GrammarCheck(word));
 }
 Console.WriteLine();
+
+// Task 5
+Console.WriteLine("Task 5");
+Console.WriteLine(Exercises001.SumIndices("start", "pale"));
+Console.WriteLine();
