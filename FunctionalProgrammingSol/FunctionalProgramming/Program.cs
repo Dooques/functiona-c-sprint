@@ -25,3 +25,12 @@ Console.WriteLine();
 Console.WriteLine("Task 5");
 Console.WriteLine(Exercises001.SumIndices("start", "pale"));
 Console.WriteLine();
+
+// Task 6
+Console.WriteLine("Task 6");
+string goodEmail = "chris@northcoders.co.uk";
+string badEmail = "example@gmail.com";
+
+Console.WriteLine(Exercises001.CheckValidEmail(goodEmail));
+Console.WriteLine(Exercises001.CheckValidEmail(badEmail));
+Console.WriteLine();

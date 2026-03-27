@@ -13,5 +13,22 @@ namespace FunctionalProgramming
         public static Func<int, int> AddTen = num => num + 10;
         public static Predicate<string> GrammarCheck = s => s.StartsWith('A') && s.EndsWith('!');
         public static Func<string, string, int> SumIndices = (a, b) => a.IndexOf('a') + b.IndexOf('e');
+        public static string CheckValidEmail(string email)
+        {
+            Predicate<string> domainCheck = s => s.Split('@')[1] == "northcoders.co.uk";
+            Predicate<string> usernameCheck = s => s.Split('@')[0].Length >= 5;
+            
+            if (domainCheck(email) && usernameCheck(email))
+            {
+                return "Email domain and user valid, please continue";
+            }
+            else
+            {
+                return "Email domain and user name invalid, please check your input";
+            }
+
+        }
+
+
     }
 }
