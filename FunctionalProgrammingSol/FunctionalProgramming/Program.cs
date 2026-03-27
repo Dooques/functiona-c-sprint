@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using FunctionalProgramming;
+using System.Threading.Channels;
 
 // Task 3
 Console.WriteLine("Task 3");
@@ -33,4 +34,12 @@ string badEmail = "example@gmail.com";
 
 Console.WriteLine(Exercises001.CheckValidEmail(goodEmail));
 Console.WriteLine(Exercises001.CheckValidEmail(badEmail));
+Console.WriteLine();
+
+// Task 7
+Console.WriteLine("Task 7");
+List<string> coolPeople = Exercises002.GetCoolPeople();
+
+coolPeople.ForEach(Console.WriteLine);
+
 Console.WriteLine();
